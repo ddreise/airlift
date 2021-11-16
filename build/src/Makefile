@@ -110,6 +110,1065 @@ depend:
 	cd /home/ddreise/pico/airlift/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+src/CMakeFiles/main.dir/rule:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/rule
+.PHONY : src/CMakeFiles/main.dir/rule
+
+# Convenience name for target.
+main: src/CMakeFiles/main.dir/rule
+
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+
+home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+
+home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+
+home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.i: home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+
+home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.s: home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+
+home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.obj: home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+
+home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.i: home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.c.i
+
+home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.s: home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.c.s
+
+home/ddreise/pico/pico-sdk/src/common/pico_time/time.obj: home/ddreise/pico/pico-sdk/src/common/pico_time/time.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_time/time.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/common/pico_time/time.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_time/time.c.obj
+
+home/ddreise/pico/pico-sdk/src/common/pico_time/time.i: home/ddreise/pico/pico-sdk/src/common/pico_time/time.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_time/time.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/common/pico_time/time.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_time/time.c.i
+
+home/ddreise/pico/pico-sdk/src/common/pico_time/time.s: home/ddreise/pico/pico-sdk/src/common/pico_time/time.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_time/time.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/common/pico_time/time.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_time/time.c.s
+
+home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+
+home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.obj: home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+
+home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.i: home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.s: home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.obj: home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+
+home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.i: home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.s: home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+home/ddreise/pico/pico-sdk/src/common/pico_util/queue.obj: home/ddreise/pico/pico-sdk/src/common/pico_util/queue.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/queue.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/common/pico_util/queue.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/queue.c.obj
+
+home/ddreise/pico/pico-sdk/src/common/pico_util/queue.i: home/ddreise/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/queue.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/common/pico_util/queue.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+home/ddreise/pico/pico-sdk/src/common/pico_util/queue.s: home/ddreise/pico/pico-sdk/src/common/pico_util/queue.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/queue.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/common/pico_util/queue.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/common/pico_util/queue.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
+
+# target to build an object file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+
+# target to preprocess a source file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+
+# target to generate assembly for a file
+home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+main.obj: main.c.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.c.obj:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.c.obj
+.PHONY : main.c.obj
+
+main.i: main.c.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	cd /home/ddreise/pico/airlift/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.c.s
+.PHONY : main.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +1177,123 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... main"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_sync/critical_section.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_sync/lock_core.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_sync/mutex.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_sync/sem.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_time/time.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_time/time.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_time/time.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_time/timeout_helper.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_util/datetime.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_util/pheap.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_util/queue.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_util/queue.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_platform/platform.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
+	@echo "... home/ddreise/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... main.obj"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
